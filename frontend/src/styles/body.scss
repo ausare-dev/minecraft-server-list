@@ -1,0 +1,15 @@
+.container {
+    width: 320px;
+    margin: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    @media screen and (min-width: $desktop) {
+        width: $desktop;
+    }
+}
+section {
+    min-width: 320px;
+}
+a {
+    text-decoration: none;
+}
